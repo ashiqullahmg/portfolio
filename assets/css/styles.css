@@ -1012,6 +1012,11 @@ bottom: 5rem;
     background-color: var(--text-color-light);
 }
 
+/* =============Google reCaptcha v3============== */
+.brochure__form__captcha{
+    width: max-content;
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
