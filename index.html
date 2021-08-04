@@ -12,10 +12,20 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/loader.css">
 
-        <title>Responsive Portfolio Website</title>
+        <title>Ashiq Ullah</title>
     </head>
     <body>
+        <!--=================LOADER====================-->
+        <div id="loader-wrapper">
+            <div id="loader">
+                <img src="assets/img/loader.jpg" alt="" class="testimonial__imjjg">
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        
+        </div>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
@@ -109,7 +119,7 @@
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm Ashiq</h1>
                             <h3 class="home__subtitle">Junior Software Engineer</h3>
-                            <p class="home__description">I am an expert of cross-platform mobile application development, UI and UX, and quality is my first concern.</p>
+                            <p class="home__description">I am an expert of cross-platform mobile application development, UI/UX designer, with over a year of internship experience</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -135,7 +145,7 @@
                     <img src="assets/img/about.jpg" alt="" class="about__img">
 
                     <div class="aabout__data">
-                        <p class="about__description">Mobile application developer for both iOS and Android platforms, with extensive knowledge and two years of experience, working as a Flutter Developer and UI/UX designer.</p>
+                        <p class="about__description">Mobile application developer for both iOS and Android platforms, with extensive knowledge and one years of experience, working as a Flutter Developer and UI/UX designer.</p>
 
                         <div class="about__info">
                             <div>
@@ -356,7 +366,7 @@
 
                         <div class="qualification__button button--flexe" data-target="#work">
                             <i class="il uil-briefcase-alt qualification__icon"></i>
-                            Courses and Training
+                            Training
                         </div>
 
                     </div>
@@ -884,6 +894,9 @@
                             <label for="Email" class="contact__label">Message</label>
                             <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
+                        <div class="g-recaptcha brochure__form__captcha contact__content" light data-sitekey="6LfKaJAbAAAAAG9X3FEIuM9l_Qw_qMQ0HesL3TLL">
+
+                        </div>
 
                         <div>
                             <a href="#" class="button button--flex">
@@ -913,7 +926,7 @@
                             <a href="#portfolio" class="footer__link">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#contact" class="footer__link">Contact Me</a>
+                            <a href="#contact" class="footer__link">Contact</a>
                         </li>
                     </ul>
 
@@ -950,5 +963,11 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+
+        <!--=================LOADER JS====================-->
+    
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="assets/js/loader.js"></script>
     </body>
 </html>
