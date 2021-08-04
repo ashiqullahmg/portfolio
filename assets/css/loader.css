@@ -24,7 +24,7 @@
     z-index: 1001;
 }
    
-#loader img {
+#loader .svg{
         content: "";
         position: absolute;
         border-radius: 50%;

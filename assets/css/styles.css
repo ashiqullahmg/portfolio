@@ -1305,3 +1305,24 @@ bottom: 5rem;
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+
+/*==================== LOADER ====================*/
+.svg .circle{
+    
+  fill: var(--body-color);
+  stroke: var(--first-color);
+
+}
+
+.svg .rectangle{
+    
+  fill: var(--body-color);
+
+}
+
+.svg .text{
+    
+  fill: var(--title-color);
+
+}
