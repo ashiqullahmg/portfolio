@@ -1326,3 +1326,11 @@ bottom: 5rem;
   fill: var(--title-color);
 
 }
+
+input[type=submit] {
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    font-family: FontAwesome;
+}
+
